@@ -18,6 +18,7 @@ minetest.register_on_chat_message(function(name, message)
           return true
       end
       end
+    end
 end)
 
 minetest.register_chatcommand("public_warning", {
